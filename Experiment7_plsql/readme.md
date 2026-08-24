@@ -34,7 +34,8 @@ END;
 - Use an `IF` statement to compare the values.
 - Display the greater number using `DBMS_OUTPUT.PUT_LINE`.
 ### Code:
-- DECLARE
+~~~
+DECLARE
    num1 NUMBER := 25;   
    num2 NUMBER := 80;   
    greatest NUMBER;
@@ -47,7 +48,7 @@ BEGIN
 
    DBMS_OUTPUT.PUT_LINE('The greatest number is: ' || greatest);
 END;
-/
+~~~
 
 
 **Output:**  
@@ -65,6 +66,7 @@ The greatest number is: 80
 - Use a `WHILE` loop to iterate from 1 to `n`, adding each number to the sum.
 - Display the result using `DBMS_OUTPUT.PUT_LINE`.
 ### Code:
+~~~
 DECLARE
    n NUMBER := 10;       
    sum NUMBER := 0;      
@@ -77,7 +79,7 @@ BEGIN
    DBMS_OUTPUT.PUT_LINE('Sum of first ' || n || ' natural numbers is: ' || sum);
 END;
 /
-
+~~~
 **Output:**  
 <img width="291" height="106" alt="image" src="https://github.com/user-attachments/assets/8427bf83-9485-4c44-8d08-bca6fbd490ed" />
 **Expected output:**
@@ -93,6 +95,7 @@ Sum of first 10 natural numbers is: 55
 - Use a loop to generate the next terms using the formula `c = a + b`.
 - Print each term in the series.
 ### Code:
+~~~
 DECLARE
    n NUMBER := 7;        
    a NUMBER := 0;      
@@ -113,6 +116,7 @@ BEGIN
    END LOOP;
 END;
 /
+~~~
 
 
 ## Output:
@@ -131,6 +135,7 @@ Fibonacci sequence: 0, 1, 1, 2, 3, 5, 8
 - Use a loop to extract each digit using modulo and reverse the number.
 - Display the reversed number.
 ### Code:
+~~~
 DECLARE
    n NUMBER := 1535;       
    rev NUMBER := 0;        
@@ -145,6 +150,7 @@ BEGIN
    DBMS_OUTPUT.PUT_LINE('Reversed number is ' || rev);
 END;
 /
+~~~
 **Output:**
 <img width="290" height="90" alt="image" src="https://github.com/user-attachments/assets/7935bf69-7920-490d-badf-88d97282eb44" />
 
@@ -163,6 +169,7 @@ Reversed number is 5351
 - Display the largest number.
 
 ### Code:
+~~~
 DECLARE
    a NUMBER := 25;  
    b NUMBER := 40;  
@@ -180,6 +187,7 @@ BEGIN
    DBMS_OUTPUT.PUT_LINE('The largest number is: ' || largest);
 END;
 /
+~~~
 **Output:**
 <img width="306" height="86" alt="image" src="https://github.com/user-attachments/assets/2192cc06-8d84-4911-86b0-b76666c5212f" />
 
