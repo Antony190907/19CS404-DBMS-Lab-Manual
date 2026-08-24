@@ -119,7 +119,7 @@ END;
 ~~~
 
 
-## Output:
+**Output:**
 <img width="232" height="139" alt="image" src="https://github.com/user-attachments/assets/8e78500d-3ee8-405b-903b-f2dcba6ac044" />
 
 **Expected Output:**  
@@ -152,6 +152,7 @@ END;
 /
 ~~~
 **Output:**
+
 <img width="290" height="90" alt="image" src="https://github.com/user-attachments/assets/7935bf69-7920-490d-badf-88d97282eb44" />
 
 
@@ -189,6 +190,7 @@ END;
 /
 ~~~
 **Output:**
+
 <img width="306" height="86" alt="image" src="https://github.com/user-attachments/assets/2192cc06-8d84-4911-86b0-b76666c5212f" />
 
 
